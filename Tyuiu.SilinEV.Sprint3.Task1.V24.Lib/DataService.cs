@@ -14,7 +14,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task1.V24.Lib
                 startValue++;
             }
 
-            return a;
+            return Math.Round(a, 3);
         }
     }
 }
