@@ -13,7 +13,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task0.V9.Lib
                 a += Math.Pow(1 / (3 + Math.Pow(value, startValue)), startValue);
             }
 
-            return a;
+            return Math.Round(a, 3);
         }
     }
 }
