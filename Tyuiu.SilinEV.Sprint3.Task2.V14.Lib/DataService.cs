@@ -9,10 +9,10 @@ namespace Tyuiu.SilinEV.Sprint3.Task2.V14.Lib
             double a = 1;
             do
             {
-                a *= Math.Pow(value / startValue, 3);
-                startValue += 1;
+                a *= Math.Pow(Convert.ToDouble(value) / Convert.ToDouble(startValue), 3);
+                startValue++;
             }
-            while (startValue != stopValue);
+            while (startValue != stopValue + 1);
 
             return Math.Round(a, 3);
         }
