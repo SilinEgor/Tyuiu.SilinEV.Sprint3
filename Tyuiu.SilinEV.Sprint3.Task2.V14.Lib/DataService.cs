@@ -10,9 +10,9 @@ namespace Tyuiu.SilinEV.Sprint3.Task2.V14.Lib
             do
             {
                 a *= Math.Pow(value / startValue, 3);
-                value += 1;
+                startValue += 1;
             }
-            while (a < stopValue);
+            while (startValue != stopValue);
 
             return Math.Round(a, 3);
         }
