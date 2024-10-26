@@ -1,4 +1,3 @@
 ﻿using Tyuiu.SilinEV.Sprint3.Task2.V14.Lib;
 
-DataService ds = new();
-Console.WriteLine(ds.GetMultiplySeries(5, 1, 6));
+Console.WriteLine(new DataService().GetMultiplySeries(5, 1, 6));
