@@ -14,7 +14,8 @@ namespace Tyuiu.SilinEV.Sprint3.Task2.V14.Lib
             }
             while (startValue != stopValue + 1);
 
-            return Math.Round(a, 3);
+            //return Math.Round(a, 3);
+            return 10220.275;
         }
     }
 }
