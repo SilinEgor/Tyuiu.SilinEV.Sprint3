@@ -6,18 +6,17 @@ namespace Tyuiu.SilinEV.Sprint3.Task4.V1.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double a = 0;
+            double a = 0, s = startValue, d = stopValue;
 
-            for (int i = startValue; a <= stopValue; startValue++)
+            for (int i = startValue; i <= stopValue; i++)
             {
-                if (startValue == 0)
+                if (a == 0)
                 {
                     break;
                 }
-                a += Math.Sin(startValue) / startValue;
+                a += Math.Pow(Math.Sin(i) / i, 3);
             }
-
-            return Math.Pow(a, 3);
+            return a;
         }
     }
 }
