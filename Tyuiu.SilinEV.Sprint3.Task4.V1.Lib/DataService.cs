@@ -10,7 +10,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task4.V1.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                if (a == 0)
+                if (i == 0)
                 {
                     break;
                 }
