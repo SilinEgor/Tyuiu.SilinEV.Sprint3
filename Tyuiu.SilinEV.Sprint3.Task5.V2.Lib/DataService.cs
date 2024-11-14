@@ -16,7 +16,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task5.V2.Lib
                 }
             }
 
-            return Math.Round(a);
+            return Math.Round(a, 3);
         }
     }
 }
