@@ -12,7 +12,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task7.V18.Lib
 
             for (int j = startValue; j <= stopValue; j++)
             {
-                if (j == 0)
+                if ((Math.Cos(j) + j) == 0)
                 {
                     a[i] = 0.0;
                     i++;
