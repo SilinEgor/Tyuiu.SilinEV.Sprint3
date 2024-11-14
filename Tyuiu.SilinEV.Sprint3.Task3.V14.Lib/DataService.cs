@@ -11,7 +11,7 @@ namespace Tyuiu.SilinEV.Sprint3.Task3.V14.Lib
             {
                 if (c == replaceable)
                 {
-                    a += "’";
+                    a += "'";
                 }
                 else
                 {
