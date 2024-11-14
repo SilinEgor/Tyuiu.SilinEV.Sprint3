@@ -8,19 +8,19 @@ namespace Tyuiu.SilinEV.Sprint3.Task7.V18.Lib
         public double[] GetMassFunction(int startValue, int stopValue)
         {
             double[] a = new double[stopValue - startValue + 1];
+            int i = 0;
 
-            for (int i = 0; i < a.Length; i++)
+            for (int j = startValue; j <= stopValue; j++)
             {
-                for (int j = startValue; j <= stopValue; j++)
+                if (j == 0)
                 {
-                    if (j == 0)
-                    {
-                        a[i] = 0.0;
-                    }
-                    else
-                    {
-                        a[i] = ((2 * j - 3) / (Math.Cos(j) + j)) + 5; 
-                    }
+                    a[i] = 0.0;
+                    i++;
+                }
+                else
+                {
+                    a[i] = Math.Round(((2 * j - 3) / (Math.Cos(j) + j)) + 5, 2);
+                    i++;
                 }
             }
 
